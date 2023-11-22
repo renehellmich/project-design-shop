@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'KarlaRegular';
+    src: url('../fonts/Karla-Regular.ttf');
+}
+@font-face {
+    font-family: 'KarlaBold';
+    src: url('../fonts/Karla-Bold.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-text-color: #323a45;
+    --product-name-color: #000000;
+    --manufactor-color: #848484;
+    --padding-global: 15px;
+    --padding-nav: 20px;
+    --global-font-size: 8px;
+}
+
+html {
+    font-size: var(--global-font-size)
+}
+
+body {
+    padding: 0 var(--padding-global);
+}
+
+h1 {
+    font-size: calc(20/8 * 1rem);
+}
+
+h2 {
+    font-family: 'KarlaRegular';
+    font-size: 2em;
+}
+
+p {
+    font-family: 'KarlaRegular';
+    font-size: 2em;
+    color: var(--manufactor-color);
+}
+
+.footer h2 {
+    font-family: 'KarlaBold';
+    font-size: calc(14/8 *1rem);
+}
+
+.footer p {
+    font-family: 'KarlaRegular';
+}

@@ -1,0 +1,46 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 40px;
+}
+
+/* * Footer Font-Size */
+/* footer * {
+    font-size: calc(12/var(--global-font-size) * 1rem);
+} */
+
+.footer__h3 {
+    font-size: calc(16/var(--global-font-size) * 1rem);
+    font-family: 'KarlaRegular';
+}
+
+/* * Footer Design */
+
+.footer__center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__div a{
+    color: var(--manufactor-color);
+    text-decoration: none;
+}
+
+.footer__right {
+    position: relative
+}
+.footer__right .footer__div{
+    position: absolute;
+    left: 50%;
+}
+
+.div__right {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,48 @@
+/* * ------------ * */
+/* * "Globale" Description Klasse */
+
+.div__description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 0;
+}
+.marke {
+    text-align: right;
+}
+.artikel a {
+    display: block;
+}
+.artikel a img:hover {
+    filter: opacity(50%)
+}
+
+.div__description p {
+    color: var(--product-name-color);
+}
+.div__description p:last-child {
+    color: var(--manufactor-color)
+}
+
+/* * ------------ * */
+/* * Klasse: 1 Bild */
+
+.sc__single div {
+
+}
+
+.sc__single img {
+    width: 100%;
+}
+
+/* * ------------ * */
+/* * Klasse: 6 Bild */
+
+.sc__six {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.sc__six img {
+    width: calc(100vw/3 - var(--padding-global));
+}
