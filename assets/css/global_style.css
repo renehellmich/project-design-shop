@@ -23,7 +23,7 @@
 }
 
 html {
-    font-size: var(--global-font-size)
+    font-size: var(--global-font-size);
 }
 
 body {
@@ -39,17 +39,23 @@ h2 {
     font-size: 2em;
 }
 
+h3 {
+    font-family: 'KarlaRegular';
+    font-size: calc(14/var(--global-font-size) * 1rem);
+}
+
 p {
     font-family: 'KarlaRegular';
     font-size: 2em;
     color: var(--manufactor-color);
 }
 
-.footer h2 {
+footer h2 {
     font-family: 'KarlaBold';
-    font-size: calc(14/8 *1rem);
+    font-size: calc(14/8 * 1rem);
 }
 
-.footer p {
+footer p {
     font-family: 'KarlaRegular';
+    font-size: 2rem;
 }

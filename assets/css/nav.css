@@ -1,9 +1,16 @@
+header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    padding: var(--padding-global) 0;
+    vertical-align: center;
+    background-color: white;
+}
 nav {
-    position:sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--padding-nav) 0
+    width: calc(100% - 2 * var(--padding-global));
 }
 
 nav div {
@@ -14,4 +21,5 @@ nav div {
 nav div a {
     text-decoration: none;
     color: black;
+    font-size: 1.2rem;
 }

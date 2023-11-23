@@ -26,12 +26,10 @@
 /* * ------------ * */
 /* * Klasse: 1 Bild */
 
-.sc__single div {
-
-}
 
 .sc__single img {
     width: 100%;
+    height: 100%;
 }
 
 /* * ------------ * */

@@ -5,14 +5,34 @@ footer {
 }
 
 /* * Footer Font-Size */
-/* footer * {
-    font-size: calc(12/var(--global-font-size) * 1rem);
-} */
-
-.footer__h3 {
-    font-size: calc(16/var(--global-font-size) * 1rem);
-    font-family: 'KarlaRegular';
+.footer__div a {
+    font-size: 1.2rem;
 }
+
+.footer__div h3 {
+    font-size: 1.4rem;
+}
+
+.footer__div p {
+    font-size: 1.2rem;
+}
+
+.footer__div:first-child span {
+    font-weight: bolder;
+    color: black;
+}
+
+.span__subscribe {
+    font-weight: bolder;
+    color: black;
+}
+
+.p__italic {
+    font-style: italic;
+    padding-top: 5px;
+}
+
+
 
 /* * Footer Design */
 
@@ -43,4 +63,14 @@ footer {
 .div__right {
     display: flex;
     flex-direction: column;
+}
+
+.p__Corporate {
+    padding-top: 20px;
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+.p__Corporate::before {
+    content: "\00A9"
 }
